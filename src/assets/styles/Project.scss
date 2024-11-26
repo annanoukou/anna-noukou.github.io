@@ -14,10 +14,20 @@
 .projects-container .projects-grid .project {
     text-align: left;
 }
-  
-.project h2:hover {
-    text-decoration: underline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+.project {
+    h5 {
+        font-size: 20px;
+        margin: 14px 0;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    span {
+        font-size: 16px;
+    }
 }
   
 .zoom {
@@ -25,10 +35,7 @@
     transition: transform .2s;
     margin: 0 auto;
 }
-  
-.zoom:hover {
-    transform: scale(1.05);
-}
+
 
 @media screen {
     @media (max-width: 700px) {
